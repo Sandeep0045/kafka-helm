@@ -1,0 +1,28 @@
+image:
+#  name: zoo1
+  repository: digitalwonderland/zookeeper
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+
+image1:
+#  name: kafka1
+  repository: pharosproduction/kafka_k8s
+  tag: v1
+  pullPolicy: IfNotPresent
+service1:
+  type: ClusterIP
+
+image2:
+#  name: kafka2
+  repository: pharosproduction/kafka_k8s
+  tag: v1
+  pullPolicy: IfNotPresent
+service2:
+  type: ClusterIP
+
+
+
+
+
+
